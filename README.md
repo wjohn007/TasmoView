@@ -31,20 +31,20 @@ With this preliminary version, interested users have the opportunity to provide 
 
 This only works for ESP32 based Tasmota.
 
-Upload the tasmoVue.tapp file to the Tasmota file system and restart Tasmota.
+Upload the "tasmoVue.tapp" file to Tasmota's file system and restart Tasmota.
 
 
-![alt text](image.png)
+![alt text](images/image.png)
 
 Click "Go to TasmoVue"
 
-![alt text](image-1.png)
+![alt text](images/image-1.png)
 
 After that the a new Tab is opened in Browser
 
 -------
 
-![alt text](image-4.png)
+![alt text](images/image-4.png)
 
 -------
 
