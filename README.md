@@ -38,7 +38,7 @@ Upload the "tasmoView.tapp" file to Tasmota's file system.
 Alternatively, you can also load the application via the berry console
 
 ```
-tasmota.urlfetch("https://github.com/wjohn007/TasmoView/raw/refs/heads/main/tasmoVue.tapp")
+tasmota.urlfetch("https://github.com/wjohn007/TasmoView/raw/refs/heads/main/tasmoView.tapp")
 ```
 
 Restart Tasmota.
