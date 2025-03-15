@@ -1,9 +1,11 @@
-# TasmoVue
+# TasmoView
 
-Tasmota-UI made with support from [Petite Vue](https://github.com/vuejs/petite-vue)
+Tasmota-UI made with support from [AlpineJS](https://alpinejs.dev/)
 
 
-Basic ideas for project-motivation
+<img src="images/TasmoView.gif" alt="drawing" width="80%"/>
+
+## Basic ideas for project-motivation
 
 - with Berry, Tasmota becomes a very powerful embedded solution
 - the current UI is quite useful for "administrators", but cannot meet the needs for end users.
@@ -29,25 +31,29 @@ With this preliminary version, interested users have the opportunity to provide 
 
 This only works for ESP32 based Tasmota.
 
-Upload the "tasmoVue.tapp" file to Tasmota's file system and restart Tasmota.
+Upload the "tasmoView.tapp" file to Tasmota's file system.
+
+![alt text](images/image-01.png)
+
+Alternatively, you can also load the application via the berry console
+
+```
+tasmota.urlfetch("https://github.com/wjohn007/TasmoView/raw/refs/heads/main/tasmoVue.tapp")
+```
+
+Restart Tasmota.
+
+Click the "TasmoView"-Button
 
 
-![alt text](images/image.png)
+![start tasmoView](images/image-02.png)
 
-Click "Go to TasmoVue"
 
-![alt text](images/image-1.png)
 
 After that the a new Tab is opened in Browser
 
--------
-
-![alt text](images/image-4.png)
-
--------
-
-![alt text](images/image-3.png)
 
 
+## More information
 
-
+Find more information about the backgrounds [there](DiveDeeper.md).
